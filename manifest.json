@@ -1,7 +1,7 @@
 {
   "name": "Static Pinned Tabs",
   "description": "Causes links from a pinned tab to open in a new page, keeping the pinned tab on the same page.",
-  "version": "1.0",
+  "version": "1.1",
   "permissions": [
     "activeTab",
     "http://*/",
