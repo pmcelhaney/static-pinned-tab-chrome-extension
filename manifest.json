@@ -1,0 +1,15 @@
+{
+  "name": "Static Pinned Tab",
+  "description": "Causes links from a pinned tab to open in a new page, keeping the pinned tab on the same page.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "http://*/",
+    "https://*/"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
